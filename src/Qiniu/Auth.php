@@ -182,6 +182,6 @@ final class Auth
 
         $sign = $this->sign($toSignStr);
         $auth = 'Qiniu ' . $sign;
-        return array('Authorization' => $auth);
+        return array('Authorization' => $auth);111
     }
 }
